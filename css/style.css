@@ -1,0 +1,82 @@
+.title-for-map{
+   
+}
+.map-class{
+    float: right;
+    clear: both;
+}
+body{
+    background-color: #aae;
+}
+.one-vote{
+    width: 70%;
+    float: right;
+}
+#side{
+    width: 30%;
+    height: 100%;
+    background-color: #aae;
+    float:left;
+}
+#results{
+    width: 600;
+}
+.no-ul{
+    background-color: #ff0000;
+    width: 170px;
+
+}
+.yes-ul{
+    background-color: #00ff00;
+    width: 170px;
+}
+.absent-ul{
+    background-color: #eeeeee;
+    width: 170px;
+   
+}
+#no{
+    float: left;
+}
+#yes{
+    float: left;
+}
+#absent{
+    float: left;
+}
+.feature--county{
+     fill: #bbb;
+}
+.list-head{
+    width: 170px;
+    list-style-type: none;
+    margin: 10px 10px 10px 0px;
+}
+  
+  .boundary{
+     fill: none;
+     stroke: #000;
+     stroke-linejoin: round;
+     stroke-linecap: round;
+  }
+
+  text {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 10px;
+     text-anchor: middle;
+  }
+
+.collapsibleList li{
+  list-style-image:url('minus.png');
+  cursor:auto;
+}
+
+li.collapsibleListOpen{
+  list-style-image:url('minus.png');
+  cursor:pointer;
+}
+
+li.collapsibleListClosed{
+  list-style-image:url('plus.png');
+  cursor:pointer;
+}

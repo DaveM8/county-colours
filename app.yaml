@@ -1,0 +1,25 @@
+application: county-colours
+version: 2
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+- url: /js
+  static_dir: js
+- url: /data
+  static_dir: data
+- url: /json
+  static_dir: json
+- url: /
+  static_files: index.html
+  upload: index.html
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
